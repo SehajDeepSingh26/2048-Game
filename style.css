@@ -1,0 +1,50 @@
+/* .body{
+    overflow: hidden;
+} */
+.wrapper{
+     box-sizing: border-box;
+     margin: -10px;
+     padding: -10px;
+     /* scroll */
+     overflow: -moz-hidden-unscrollable;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+    /* background-color: blue; */
+    margin-top: 30px
+
+}
+
+.grid div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(157, 132, 157);
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+.score-container{
+      display: flex;
+      flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+       height: 100%;
+       width: 100%;
+}
+.score-title{
+    margin-top: 20px;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(32, 5, 33);
+}
+#score{
+    
+    margin-top: 20px;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(32, 5, 33);
+}
